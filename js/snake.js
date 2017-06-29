@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	
 	var square_length = 20;//每个方块的边长[都是正方形]
 	var speedArr = [1000, 600, 300, 100];//预定速度值
 	var speed = speedArr[2];//速度
