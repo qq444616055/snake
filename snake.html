@@ -1,0 +1,34 @@
+﻿<!DOCTYPE HTML>
+<html> 
+<head>
+    <title> 贪吃蛇变速版 </title>
+    <meta charset="utf-8">
+	<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/snake.js"></script>
+    <link href="./css/snake.css" rel="stylesheet" type="text/css" />
+</head> 
+<body>
+	<div class="head">
+		<h3>请在游戏开始前设置速度，请操作键盘←↑→↓控制方向</h3>
+	</div>
+	<div class="game_set">
+		<div class="content">
+			<input type="button" class="input_button start" value="开始游戏"/>
+			<select id="speed" class="input_button">
+			  <option value="慢速">慢速</option>
+			  <option value="中速">中速</option>
+			  <option value="快速" selected = "selected">快速</option>
+			  <option value="极速">极速</option>
+			</select>
+			<input type="button" class="input_button score" value="当前得分：0"/>
+			<input type="button" class="input_button again" value="新的游戏"/>
+		</div>
+	</div>
+	<div class="game_box" id="game_box">
+		<div class="square" style="left:60px; background-color:#ff0066;" id="sanke_head" ></div>
+		<div class="square" style="left:40px; background-color:#0099ff"></div>
+		<div class="square" style="left:20px; background-color:yellow"></div>
+		<div class="square" style="left:0px; background-color:#00ff00"></div>
+	</div>
+</body> 
+</html>
